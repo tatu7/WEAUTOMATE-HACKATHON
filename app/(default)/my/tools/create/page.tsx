@@ -6,19 +6,17 @@ export default function Home() {
 		<>
 			<div className='h-16 w-full mx-auto flex items-center justify-between px-4  mb-6'>
 				<div>
-					<a href='https://1000.tools'>
+					<p>
 						<img
 							className='h-[24px] w-[91.96px]'
 							src='https://1000.tools/build/assets/logo-cf14bd45.svg'
 							loading='lazy'
 						/>
-					</a>
+					</p>
 				</div>
 
 				<div className='flex items-center space-x-2 lg:space-x-3'>
-					<a
-						className='hidden lg:flex items-center lg:space-x-0.5 text-sm text-gray-500 leading-none'
-						href='https://1000.tools/advertise'>
+					<p className='hidden lg:flex items-center lg:space-x-0.5 text-sm text-gray-500 leading-none'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 16 16'
@@ -28,26 +26,13 @@ export default function Home() {
 						</svg>
 
 						<div>Advertise</div>
-					</a>
+					</p>
 
-					<a
-						className='text-sm text-gray-500 leading-none'
-						href='https://plausible.io/1000.tools?period=30d&amp;keybindHint=T'
-						target='_blank'>
-						Analytics
-					</a>
+					<p className='text-sm text-gray-500 leading-none'>Analytics</p>
 
-					<a
-						className='text-sm text-gray-500 leading-none'
-						href='https://1000.tools/my/tools/create'>
-						Submit
-					</a>
+					<p className='text-sm text-gray-500 leading-none'>Submit</p>
 
-					<a
-						className='text-sm text-gray-500 leading-none'
-						href='https://1000.tools/my/tools'>
-						My tools
-					</a>
+					<p className='text-sm text-gray-500 leading-none'>My tools</p>
 
 					<div
 						data-controller='dropdown'
@@ -65,11 +50,9 @@ export default function Home() {
 						<div
 							data-dropdown-target='dropdown'
 							className='hidden w-32 absolute z-40 top-5 right-0 p-1 bg-white shadow-lg border rounded-md overflow-hidden'>
-							<a
-								className='w-full h-8 flex items-center px-2 text-gray-400 text-sm hover:bg-gray-100 rounded-md'
-								href='https://1000.tools/billing'>
+							<p className='w-full h-8 flex items-center px-2 text-gray-400 text-sm hover:bg-gray-100 rounded-md'>
 								Billing
-							</a>
+							</p>
 							<form
 								method='post'
 								action='https://1000.tools/logout'
