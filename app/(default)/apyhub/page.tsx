@@ -1,16 +1,17 @@
 "use client";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 export default function Home() {
-	const router = useRouter();
 	return (
 		<>
 			<div className='h-16 w-full mx-auto flex items-center justify-between px-4  mb-6'>
 				<div>
 					<p>
-						<img
-							className='h-[24px] w-[91.96px]'
-							src='https://1000.tools/build/assets/logo-cf14bd45.svg'
-							loading='lazy'
+						<Image
+							width={48}
+							height={24}
+							src={"https://1000.tools/build/assets/logo-cf14bd45.svg"}
+							alt={""}
 						/>
 					</p>
 				</div>
@@ -75,31 +76,9 @@ export default function Home() {
 				<article>
 					<div className='mb-6 lg:mb-12'>
 						<div className='flex items-center justify-between mb-4'>
-							<div className='flex-none mr-3 lg:mr-4 rounded-[22.5%] w-20 h-20 overflow-hidden'>
-								<img
-									className='w-20 h-20'
-									src='https://cdn.1000.tools/logos/0uvUPHvxW8ofHTVeOI7l1HMZz7442kZHjHFEmfX1.png?width=512'
-									alt='Logo of AskDocs: Quickly search, find, understand, and summarize documents'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 lg:mr-4 rounded-[22.5%] w-20 h-20 overflow-hidden'></div>
 
-							<div>
-								<p className='btn btn-sm btn-primary'>
-									<span>www.askdocs.com</span>
-
-									<svg
-										xmlns='http://www.w3.org/2000/svg'
-										viewBox='0 0 20 20'
-										fill='currentColor'
-										className='ml-1 w-4 h-4'>
-										<path
-											fill-rule='evenodd'
-											d='M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z'
-											clip-rule='evenodd'></path>
-									</svg>
-								</p>
-							</div>
+							<div></div>
 						</div>
 
 						<div>
@@ -182,8 +161,7 @@ export default function Home() {
 									className='w-16 h-16'
 									src='https://cdn.1000.tools/logos/vpjhkjdZZwVo2sBchT1bjj4UtIDK2w87Q1IMX8Ft.svg?width=128'
 									alt='Logo of SupaDoc AI Writer: Quick, smart document creation'
-									loading='lazy'
-								/>{" "}
+								/>
 							</div>
 
 							<div className='flex-grow'>
@@ -203,14 +181,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-full w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/0HKC2XI3Re9hioOocJA500mRzQRs8fzU5MZ2gaXk.jpg?width=128'
-									alt='Logo of Documind: Say goodbye to the hassle of scrolling lengthy documents endlessly to find the information you need. Documind will do the hard work for you.'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-full w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -231,14 +202,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/MQFQoBTI3Las0TOZ6fZLnW5rXWb9ems1io7zpHUz.png?width=128'
-									alt='Logo of SearchMyDocs: Search, ask, chat with your documents effortlessly'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -257,14 +221,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-none w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/coH6wF6hMizIU2uN7SvHkVX0X2ICP4HTghRldVP4.png?width=128'
-									alt='Logo of Trickle AI: Summarize, organize, and easily search your screenshots'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-none w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -283,14 +240,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/mFYZ4fgCWgpumRZanS0PhrsyBj6WWOPEHCesN3yJ.png?width=128'
-									alt='Logo of Docses: Legal Document Sumarizer'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -309,14 +259,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/oei3LLrtLZ2bqqDvq2SywH0FVbV2enlfCjClThZ1.png?width=128'
-									alt='Logo of Summarize This: Effortlessly summarize text, websites, pdfs, and youtube videos anytime, anywhere'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -336,14 +279,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/Xln8glgfVE7UWv4KcOzuk3dZABZAbPJo3cx6NPkD.png?width=128'
-									alt='Logo of Echonotes: Quickly Organize Ideas into Clear, Structured Notes'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -362,14 +298,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-none w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/1c9sdLJSi144fTQnuVvaS4bd2Opi1Da4t0wNVEtI.png?width=128'
-									alt='Logo of PDF Search: Search documents in seconds with Artificial Intelligence'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-none w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
@@ -388,14 +317,7 @@ export default function Home() {
 							<div className='absolute -top-2 right-3 hidden md:flex items-center space-x-1'></div>
 						</p>
 						<p className='relative flex items-center md:p-3 md:bg-gray-50 md:hover:shadow md:rounded-lg'>
-							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'>
-								<img
-									className='w-16 h-16'
-									src='https://cdn.1000.tools/logos/CFnMD7TGg7mMlMO0f5IEqxh1GLL4o4fP6kCBUBDg.png?width=128'
-									alt='Logo of PDFChat: AI assistant for your documents'
-									loading='lazy'
-								/>{" "}
-							</div>
+							<div className='flex-none mr-3 rounded-[22.5%] w-16 h-16 overflow-hidden'></div>
 
 							<div className='flex-grow'>
 								<div className='flex items-center justify-between mb-0.5'>
