@@ -1,9 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-interface ServicesSelectorProps {
-	onNext: (selectedServices: string[]) => void;
-}
 
 export default function ServicesSelector() {
 	const router = useRouter();
@@ -31,10 +28,10 @@ export default function ServicesSelector() {
 		"E-commerce Solutions",
 	];
 
-	const toggleService = (service) => {
-		setSelectedServices((prev) => {
+	const toggleService = (service: string) => {
+		setSelectedServices((prev: any) => {
 			if (prev.includes(service)) {
-				return prev.filter((s) => s !== service);
+				return prev.filter((s: any) => s !== service);
 			} else {
 				return [...prev, service];
 			}
