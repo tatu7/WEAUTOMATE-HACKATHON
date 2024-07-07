@@ -1,0 +1,20 @@
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f1f1f1;
+	padding: 10px 30px;
+	border-radius: 10px;
+	gap: 20px;
+}
+
+.tab {
+	padding: 10px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.tab.active {
+	background-color: rgb(79 70 229);
+	color: white;
+}
