@@ -9,14 +9,14 @@ export default function Introduction({ onNext }: IntroductionProps) {
 				Welcome!
 			</h2>
 			<p className='mb-4'>
-				We're excited to offer business owners the opportunity to elevate their
-				ventures using cutting-edge technology. Our service harnesses the power
-				of artificial intelligence to create personalized websites, ebooks, and
-				videos tailored to your unique business needs. The first step in this
-				process is understanding your requirements and goals. Let's work
-				together to craft the most effective digital solutions for your
-				business. Click the button below to begin and take the first step
-				towards your future success!" This introduction explains the core
+				We&apos;re excited to offer business owners the opportunity to elevate
+				their ventures using cutting-edge technology. Our service harnesses the
+				power of artificial intelligence to create personalized websites,
+				ebooks, and videos tailored to your unique business needs. The first
+				step in this process is understanding your requirements and goals.
+				Let&apos;s work together to craft the most effective digital solutions
+				for your business. Click the button below to begin and take the first
+				step towards your future success!" This introduction explains the core
 				concept of the service to business owners and encourages them to proceed
 				to the next step. You can further customize this text to align more
 				closely with your specific service offerings and target audience.
