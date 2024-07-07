@@ -2,8 +2,12 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import "./Tabs.css";
-
-const Tab = ({ isActive, label, onClick }) => (
+interface TabProps {
+	isActive: boolean;
+	label: string;
+	onClick: () => void;
+}
+const Tab = ({ isActive, label, onClick }: TabProps) => (
 	<div className={`tab ${isActive ? "active" : ""}`} onClick={onClick}>
 		{label}
 	</div>
